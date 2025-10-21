@@ -1,14 +1,7 @@
-# Wrangler Configuration untuk Cloudflare Pages
-# File ini opsional - Cloudflare Pages bisa di-deploy langsung via dashboard
-
 name = "zahari-website"
 pages_build_output_dir = ".next"
 compatibility_date = "2025-10-21"
 compatibility_flags = ["nodejs_compat"]
 
-# Environment variables (jika diperlukan)
 [env.production]
-# Tambahkan environment variables di sini jika diperlukan
-
 [env.preview]
-# Environment variables untuk preview
