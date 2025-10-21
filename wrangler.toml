@@ -6,16 +6,6 @@ pages_build_output_dir = ".next"
 compatibility_date = "2025-10-21"
 compatibility_flags = ["nodejs_compat"]
 
-[build]
-command = "npm run build"
-cwd = "./"
-watch_dir = "./"
-
-[build.upload]
-format = "modules"
-dir = "./out"
-main = "./index.js"
-
 # Environment variables (jika diperlukan)
 [env.production]
 # Tambahkan environment variables di sini jika diperlukan
